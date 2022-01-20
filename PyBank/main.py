@@ -71,10 +71,7 @@ with open(pybank_csv, newline='', encoding= 'utf-8') as csvfile:
 #creating a new text file to store the analysis in the 'Analysis' folder
 
 output_path = os.path.join('..','Analysis','PyBank.txt')
-
-
 with open(output_path,'w') as final:
-    
     final.write(output)
 
 
